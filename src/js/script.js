@@ -18,14 +18,13 @@ $(window).click((e) => {
     } else {
         $('.nav-bar').removeClass('active');
         $('.nav-cont').removeClass('down');
-
     }
 });
 
-$('.nav-bar').click((e) => {
-    $('.nav-bar').toggleClass('active');
-    $('.nav-cont').toggleClass('down');
-    $('.nav-cont').css('top', $('.nav-bar').offset().top + 29 + 'px');
+$('.navbar').click((e) => {
+    $('.navbar-button').toggleClass('active');
+    $('.navbar-menu').toggleClass('down');
+    $('.navbar-menu').css('top', $('.nav-bar').offset().top + 29 + 'px');
 });
 
 

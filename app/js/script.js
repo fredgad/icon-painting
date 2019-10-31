@@ -14,9 +14,9 @@ $(function () {
       $('.nav-cont').removeClass('down');
     }
   });
-  $('.nav-bar').click(function (e) {
-    $('.nav-bar').toggleClass('active');
-    $('.nav-cont').toggleClass('down');
-    $('.nav-cont').css('top', $('.nav-bar').offset().top + 29 + 'px');
+  $('.navbar').click(function (e) {
+    $('.navbar-button').toggleClass('active');
+    $('.navbar-menu').toggleClass('down');
+    $('.navbar-menu').css('top', $('.nav-bar').offset().top + 29 + 'px');
   });
 });
